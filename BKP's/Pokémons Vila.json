@@ -1,0 +1,90 @@
+[
+  {
+    "color": "default",
+    "type": "charizard",
+    "size": "small",
+    "name": "Joaolive",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "gengar",
+    "size": "small",
+    "name": "Osasco",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "totodile",
+    "size": "small",
+    "name": "Rodrigo",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "kadabra",
+    "size": "small",
+    "name": "Novas",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "ampharos",
+    "size": "small",
+    "name": "Irlandes",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "heracross",
+    "size": "small",
+    "name": "Marcus",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "lugia",
+    "size": "small",
+    "name": "Well",
+    "generation": "gen2",
+    "originalSpriteSize": 64
+  },
+  {
+    "color": "default",
+    "type": "cubone",
+    "size": "small",
+    "name": "Faria Limer",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "umbreon",
+    "size": "small",
+    "name": "Melado",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "sudowoodo",
+    "size": "small",
+    "name": "Juan",
+    "generation": "gen2",
+    "originalSpriteSize": 32
+  },
+  {
+    "color": "default",
+    "type": "mrmime",
+    "size": "small",
+    "name": "Fabio",
+    "generation": "gen1",
+    "originalSpriteSize": 32
+  }
+]
