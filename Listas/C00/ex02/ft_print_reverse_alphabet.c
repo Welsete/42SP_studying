@@ -23,8 +23,8 @@ void	ft_print_reverse_alphabet(void)
 		letter--;
 	}
 }
-int main (void)
-{
-	ft_print_reverse_alphabet();
-	return(0);
-}
+// int main (void)
+// {
+// 	ft_print_reverse_alphabet();
+// 	return(0);
+// }
