@@ -12,23 +12,14 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_putnbr2(int n)
 {
-	write(1, &c, 1);
-}
+	char	c;
 
-void	ft_putnbr(int n)
-{
-	if (n <= 9)
-	{
-		n = n + '0';
-		ft_putchar(n);
-	}
-	else
-	{
-		ft_putnbr(n / 10);
-		ft_putnbr(n % 10);
-	}
+	c = (n / 10) + '0';
+	write(1, &c, 1);
+	c = (n % 10) + '0';
+	write(1, &c, 1);
 }
 
 void	ft_print_comb2(void)
@@ -42,14 +33,10 @@ void	ft_print_comb2(void)
 		b = i + 1;
 		while (b <= 99)
 		{
-			if (i < 10)
-				write(1, "0", 1);
-			ft_putnbr(i);
+			ft_putnbr2(i);
 			write(1, " ", 1);
-			if (b < 10)
-				write(1, "0", 1);
-			ft_putnbr(b);
-			if(!(i == 98 && b == 99))
+			ft_putnbr2(b);
+			if (!(i == 98 && b == 99))
 				write(1, ", ", 2);
 			b++;
 		}
