@@ -25,20 +25,20 @@ void	ft_putnbr2(int n)
 void	ft_print_comb2(void)
 {
 	int	i;
-	int	b;
+	int	j;
 
 	i = 0;
 	while (i <= 98)
 	{
-		b = i + 1;
-		while (b <= 99)
+		j = i + 1;
+		while (j <= 99)
 		{
 			ft_putnbr2(i);
 			write(1, " ", 1);
-			ft_putnbr2(b);
-			if (!(i == 98 && b == 99))
+			ft_putnbr2(j);
+			if (!(i == 98 && j == 99))
 				write(1, ", ", 2);
-			b++;
+			j++;
 		}
 		i++;
 	}
